@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery
+    </title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>Photo Gallery</h1>
+    <img src="1.flower.webp">
+    <div>
+        <h3>Grid Gallery</h3>
+        <br>
+        <span id="grid">
+            <img src="rose.jpg">
+            <img src="sunflowers.jpg">
+            <img src="lotus.jpg">
+        </span>
+        <span id="grid2">
+            <img src="marigolds.jpg">
+            <img src="jasmine.jpg">
+            <img src="dahlia.jpg">
+        </span>
+        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="lily.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Lily</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="daisy.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Daisy</p>
+                        </div>
+                    </center>
+                    <center>
+                        <img src="tulip.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Tulip</p>
+                        </div>
+                    </center>
+                    <center>
+                        <img src="pansy.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Pansy</p>
+                        </div>
+                    </center>
+                    <center>
+                        <img src="poppy.jpeg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Poppy</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
