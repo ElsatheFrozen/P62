@@ -1,76 +1,66 @@
-<!DOCTYPE html>
-<html lang="">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery
     </title>
-    <link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
 </head>
 
 <body>
     <h1>Photo Gallery</h1>
-    <img src="1.flower.webp">
-    <div>
+    <img src="https://image.shutterstock.com/shutterstock/photos/371532271/display_1500/stock-vector-flowers-logo-vector-flower-sign-florist-icon-flowers-vector-flowers-bouquet-flowers-icon-371532271.jpg">
         <h3>Grid Gallery</h3>
         <br>
         <span id="grid">
-            <img src="rose.jpg">
-            <img src="sunflowers.jpg">
-            <img src="lotus.jpg">
+            <img class="gridimg" src="https://cdn.pixabay.com/photo/2020/07/04/20/22/rose-5370850_960_720.jpg">
+            <img class="gridimg" src="https://www.gardeningknowhow.com/wp-content/uploads/2007/08/sunflowers.jpg">
+            <img class="gridimg" src="https://www.thoughtco.com/thmb/mik7Z00SAYN786BQbieXWOzZmc8=/2121x1414/filters:fill(auto,1)/lotus-flower-828457262-5c6334b646e0fb0001dcd75a.jpg">
         </span>
+        <br>
         <span id="grid2">
-            <img src="marigolds.jpg">
-            <img src="jasmine.jpg">
-            <img src="dahlia.jpg">
+            <img class="gridimg" src="https://www.gardeningknowhow.com/wp-content/uploads/2020/02/marigolds.jpg">
+            <img class="gridimg" src="https://i.pinimg.com/originals/b8/88/92/b88892ad53979f3da3df53cd91f64090.jpg">
+            <img class="gridimg" src="https://www.ugaoo.com/knowledge-center/wp-content/uploads/2018/03/shutterstock_259611464-850x525.jpg">
         </span>
-        <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+        <br>
+        <br>
+        <h1>Sliding Gallery
+        </h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
                     <center>
-                        <img src="lily.jpg" class="img-responsive">
-                        <div class="carousel-content">
-                            <p>Lily</p>
-                        </div>
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pansy-flowers-1529700098.jpg">
+                    <p>Pansy</p>
                     </center>
                 </div>
-
                 <div class="item">
                     <center>
-                        <img src="daisy.jpg" class="img-responsive">
-                        <div class="carousel-content">
-                            <p>Daisy</p>
-                        </div>
-                    </center>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGFoWcTQj8m6MjJ38EgdzRE42Qg8UxXqTfFw&usqp=CAU">
+                    <p>Poppy</p>
+                        </center>
+                </div>
+                <div class="item">
                     <center>
-                        <img src="tulip.jpg" class="img-responsive">
-                        <div class="carousel-content">
-                            <p>Tulip</p>
-                        </div>
-                    </center>
-                    <center>
-                        <img src="pansy.jpg" class="img-responsive">
-                        <div class="carousel-content">
-                            <p>Pansy</p>
-                        </div>
-                    </center>
-                    <center>
-                        <img src="poppy.jpeg" class="img-responsive">
-                        <div class="carousel-content">
-                            <p>Poppy</p>
-                        </div>
+                    <img src="https://i.pinimg.com/originals/a5/80/43/a58043640bacc4288331aa70eef64167.png">
+                    <p>Lily</p>
                     </center>
                 </div>
             </div>
-            <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
 </body>
 
 </html>
